@@ -43,18 +43,26 @@ Figure 02  Encoder 8 * 3
 5. For different input combinations generate the timing diagram.
 
 **PROGRAM**
-
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
-*/
+```
+Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+Developed by:HARIHARAN J
+RegisterNumber:212223240047
+module encoder_top(din, a, b, c); 
+input [0:7] din; 
+output a,b,c; 
+assign a=din[4] | din[5] | din[6] | din[7]; 
+assign b=din[2] | din[3] | din[6] | din[7];
+assign c=din[2] | din[4] | din[6] | din[7];
+endmodule
+```
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![image](https://github.com/HariharanJayavel/ENCODER8TO3DATAFLOW/assets/144870546/acc59062-567b-4b19-b8c2-55c601aa4224)
+
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![image](https://github.com/HariharanJayavel/ENCODER8TO3DATAFLOW/assets/144870546/2d098466-d0e7-4072-bed9-4b871707cc9c)
+
 **RESULTS**
-
-
-
-
+Thus, the implement Encoder 8 To 3 in Dataflow Modelling using verilog in Quartus software is successfully verified
