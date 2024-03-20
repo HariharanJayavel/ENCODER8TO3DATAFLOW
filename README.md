@@ -65,4 +65,5 @@ endmodule
 ![image](https://github.com/HariharanJayavel/ENCODER8TO3DATAFLOW/assets/144870546/2d098466-d0e7-4072-bed9-4b871707cc9c)
 
 **RESULTS**
+
 Thus, the implement Encoder 8 To 3 in Dataflow Modelling using verilog in Quartus software is successfully verified
